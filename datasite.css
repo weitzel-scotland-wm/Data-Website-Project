@@ -1,7 +1,11 @@
 h1, h2{
     text-align: center;
-    color: white;
+    color: #E60000;
     font-family: Georgia;
+}
+
+p{
+    font-family: Arial;
 }
 
 .headdiv {
@@ -19,6 +23,8 @@ h1, h2{
     border-radius: 10px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 25px;
+    padding: 2px;
 }
 
 #chart_div{
@@ -26,6 +32,7 @@ h1, h2{
     padding-right: 20px;
     border: transparent;
     align-content: center;
+    margin-left: 100px;
 }
 
 #header{
