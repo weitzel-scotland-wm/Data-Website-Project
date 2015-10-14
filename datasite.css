@@ -1,21 +1,31 @@
 h1, h2{
     text-align: center;
     color: white;
+    font-family: Georgia;
 }
 
-div{
-    overflow:hidden;
+.headdiv {
     background-color: black;
-    border: solid;
-    border-width: 2px;
-    border-color: black;
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#body{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #chart_div{
     padding-left: 20px;
     padding-right: 20px;
     border: transparent;
+    align-content: center;
 }
 
 #header{
