@@ -1,7 +1,7 @@
 h1, h2{
     text-align: center;
     color: #E60000;
-    font-family: Georgia;
+    font-family: Verdana;
 }
 
 p{
@@ -24,7 +24,17 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 25px;
-    padding: 2px;
+    padding: 10px;
+}
+
+#footer{
+    background-color: black;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    padding: 10px;
 }
 
 #chart_div{
@@ -50,5 +60,29 @@ p{
 }
 
 body{
-    background-image: url(http://p1.pichost.me/i/66/1906205.jpg);
+    background-image: url(http://all4desktop.com/data_images/original/4230979-fishing-at-dusk.jpg);
+}
+
+hr{
+    background-color: black;
+}
+
+a{
+    font-family: Arial;
+}
+a:link{
+    color: darkred;
+    background-color: transparent;
+}
+a:visited{
+    color: #575756;
+    background-color: transparent;
+}
+a:hover{
+    color: #ff0705;
+    background: transparent;
+}
+a:active{
+    color: #ff0705;
+    background-color: transparent;
 }
